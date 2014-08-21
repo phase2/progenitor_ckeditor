@@ -10,9 +10,9 @@
 function progenitor_ckeditor_filter_default_formats() {
   $formats = array();
 
-  // Exported format: WYSIWYG Full.
-  $formats['wysiwyg_full'] = array(
-    'format' => 'wysiwyg_full',
+  // Exported format: ckEditor Full.
+  $formats['ckeditor_full'] = array(
+    'format' => 'ckeditor_full',
     'name' => 'WYSIWYG Full',
     'cache' => 1,
     'status' => 1,

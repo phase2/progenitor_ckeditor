@@ -5,14 +5,14 @@
  */
 
 /**
- * Implements hook_wysiwyg_default_profiles().
+ * Implements hook_ckeditor_default_profiles().
  */
-function progenitor_ckeditor_wysiwyg_default_profiles() {
+function progenitor_ckeditor_ckeditor_default_profiles() {
   $profiles = array();
 
-  // Exported profile: wysiwyg_full
-  $profiles['wysiwyg_full'] = array(
-    'format' => 'wysiwyg_full',
+  // Exported profile: ckeditor_full
+  $profiles['ckeditor_full'] = array(
+    'format' => 'ckeditor_full',
     'editor' => 'ckeditor',
     'settings' => array(
       'default' => 1,
