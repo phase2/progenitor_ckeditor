@@ -2,4 +2,9 @@ name = Progenitor ckEditor
 core = 7.x
 package = Progenitor
 
+dependencies[] = features
+dependencies[] = filter
 dependencies[] = wysiwyg
+features[features_api][] = api:2
+features[filter][] = wysiwyg_full
+features[wysiwyg][] = wysiwyg_full
