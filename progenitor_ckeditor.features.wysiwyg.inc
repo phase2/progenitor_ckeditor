@@ -5,9 +5,9 @@
  */
 
 /**
- * Implements hook_ckeditor_default_profiles().
+ * Implements hook_wysiwyg_default_profiles().
  */
-function progenitor_ckeditor_ckeditor_default_profiles() {
+function progenitor_ckeditor_wysiwyg_default_profiles() {
   $profiles = array();
 
   // Exported profile: ckeditor_full
@@ -17,7 +17,7 @@ function progenitor_ckeditor_ckeditor_default_profiles() {
     'settings' => array(
       'default' => 1,
       'user_choose' => 0,
-      'show_toggle' => 0,
+      'show_toggle' => 1,
       'add_to_summaries' => 1,
       'theme' => '',
       'language' => 'en',
