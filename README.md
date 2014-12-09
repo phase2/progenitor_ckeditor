@@ -1,5 +1,7 @@
 # Progenitor ckEditor
 
+This [Progenitor Stack](https://github.com/phase2/progenitor) provides the dependencies and a module for a sensibly configured CKEditor rich text editor.
+
 ## Use Cases
 
 ## Usage
